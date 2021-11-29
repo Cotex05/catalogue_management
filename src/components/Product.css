@@ -1,0 +1,17 @@
+.desc {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.tag {
+    position: absolute;
+    right: 20px;
+    top: 280px;
+    background-color: rgba(4, 65, 187, 0.673);
+    padding: 4px;
+    border-radius: 10px;
+}
